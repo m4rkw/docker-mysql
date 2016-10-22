@@ -1,4 +1,4 @@
-FROM m4rkw/ubuntu
+FROM ubuntu:latest
 
 ENV DEBIAN_FRONTEND=noninteractive
 
