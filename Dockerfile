@@ -11,4 +11,4 @@ ADD assets /
 
 EXPOSE 3306
 
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord", "-c", "assets//etc/supervisor/conf.d/supervisord.conf"]
