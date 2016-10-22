@@ -10,5 +10,3 @@ RUN chown mysql:mysql /var/run/mysqld
 ADD assets /
 
 EXPOSE 3306
-
-CMD ["/usr/bin/supervisord", "-c", "assets//etc/supervisor/conf.d/supervisord.conf"]
